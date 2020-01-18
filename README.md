@@ -1,6 +1,8 @@
 # AzureFunctions.MongoDBDriver
 MongoDB Driver wrapper for easy Azure Functions Dependency Injection running in Singleton for optimum Function performance
 
+
+
 ## Why
 
 Azure functions are designed to be quick and complete fast. The longer a function executes, the higher you pay (if you're in a consumption plan.) 
@@ -14,6 +16,14 @@ Establishing a connection to mongodb on every function call is bad because:
 This library simplifies your setup so you won't have to worry connecting to your database and making sure it reuses a single connection.
 
 ## Usage
+
+```shell
+Install-Package AzureFunctions.MongoDBDriver -Version 1.0.1
+```
+
+or search for `AzureFunctions.MongoDBDriver`
+
+
 
 ### 1. Register the service in your Startup.cs
 ```csharp
