@@ -1,4 +1,5 @@
 # AzureFunctions.MongoDBDriver
+MongoDB Driver wrapper for easy Azure Functions Dependency Injection running in Singleton for optimum Function performance
 
 ## Why
 
