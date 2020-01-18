@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
     <Authors>Louie Almeda</Authors>
     <Description>MongoDB Driver wrapper for easy Azure Function Dependency Injection running Singleton for optimum Function performance</Description>
@@ -9,6 +9,8 @@
     <Owners>Louie Almeda</Owners>
     <Summary>MongoDB Driver wrapper for easy Azure Function Dependency Injection running Singleton for optimum Function performance</Summary>
     <Title>AzureFunction MongoDB Driver</Title>
+    <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
+    <PackageVersion>1.0.2</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
