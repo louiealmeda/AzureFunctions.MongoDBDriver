@@ -11,6 +11,9 @@
     <Title>AzureFunction MongoDB Driver</Title>
     <PackageLicense>https://opensource.org/licenses/MIT</PackageLicense>
     <PackageVersion>1.0.2</PackageVersion>
+    <PackageProjectUrl>https://github.com/louiealmeda/AzureFunctions.MongoDBDriver</PackageProjectUrl>
+    <ReleaseVersion>1.0.2</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
